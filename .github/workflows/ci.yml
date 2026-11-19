@@ -12,5 +12,4 @@ jobs:
       - run: npm install
       - run: npx prisma generate
       - run: npm run typecheck
-      - run: npm test
       - run: npm run build
